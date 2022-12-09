@@ -52,6 +52,7 @@ function MyBlogItem({ blog }) {
 							timeStyle="twitter"
 						/>
 					</small>
+					ago
 					<small>
 						by <b>{blog.creator || "DKM"}</b>
 					</small>

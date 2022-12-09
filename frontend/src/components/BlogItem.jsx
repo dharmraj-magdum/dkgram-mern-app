@@ -24,6 +24,7 @@ function BlogItem({ blog }) {
 							locale="en-US"
 							timeStyle="twitter"
 						/>
+						ago
 					</small>
 					<small>
 						by <b>{blog.creator || "DKM"}</b>
