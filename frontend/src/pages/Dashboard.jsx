@@ -46,7 +46,7 @@ function Dashboard() {
 		return <MySpinner size={200} />;
 	}
 	return (
-		<div className="container2">
+		<div className="container">
 			{/* <section className="heading">
 				<h3>Dashboard</h3>
 			</section> */}
