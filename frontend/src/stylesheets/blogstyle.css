@@ -16,7 +16,11 @@
 .blog-content {
 	margin: 20px auto;
 	box-shadow: 0 0 50px rgba(66, 46, 87, 0.315);
-	height: 330px;
+	height: 350px;
+	min-height: 300px;
+	background-color: var(--clr-card);
+	padding: 1rem 0.5rem;
+	text-align: left;
 	/* display: flex;
 	flex-direction: column;
 	justify-content: space-between; */
@@ -34,7 +38,7 @@
 }
 .blog-text {
 	height: 40%;
-	background-color: #ffeeee;
+	background-color: var(--clr-card);
 	color: var(--clr1);
 	display: flex;
 	flex-direction: column;
@@ -126,5 +130,27 @@
 @media (max-width: 600px) {
 	.blogs-container {
 		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.blog-content {
+		width: 100%;
+		height: 380px;
+		padding: 0.5rem;
+		margin: 0 0 1rem 0;
+	}
+	.blog-text {
+		padding: 10px 5px;
+	}
+	.blog-text h2 {
+		font-size: 18px;
+	}
+
+	.blog-text p {
+		font-size: 14px;
+	}
+	.blog-text .creator small {
+		font-size: 14px;
+		margin-left: 10px;
 	}
 }

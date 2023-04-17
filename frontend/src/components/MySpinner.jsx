@@ -23,7 +23,7 @@ const MySpinner = ({ size }) => {
 	}
 	return (
 		<RingLoader
-			color="#482673"
+			color="var(--clr1)"
 			loading={true}
 			cssOverride={CSSProperties}
 			size={size}

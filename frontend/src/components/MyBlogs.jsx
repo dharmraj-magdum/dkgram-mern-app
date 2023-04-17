@@ -54,8 +54,10 @@ const MyBlogs = () => {
 				) : (
 					<>
 						<h3>You have not added any blogs yet</h3>
-						<Link to="/blogfomr">
-							<FaSignInAlt /> Add Blog
+						<Link to="/blogform">
+							<div className="btn">
+								<FaSignInAlt /> Add Blog
+							</div>
 						</Link>
 					</>
 				)}

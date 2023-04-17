@@ -9,12 +9,15 @@
 Orchid: #ed0b70 Digi Denim: #301008 */
 
 :root {
-	--clr1: #482673;
-	--clr2: #ed0b70;
-	--clr3: #f6ebf4;
+	--clr1: #76323f;
+	--clr2: #76323f;
+	--clr3: #d7cec7;
 	--clr4: #4cbfa6;
-	--clr5: #301008;
-	--clr6: #51352f;
+	--clr-off: #efefef;
+	--clr5: #76323f;
+	--clr6: #87444f;
+	/* --clr-card: #c09f80; */
+	--clr-card: #f8eee7;
 }
 
 * {
@@ -36,7 +39,7 @@ body {
 	left: 0px;
 	right: 0px; */
 	font-family: "Poppins", sans-serif;
-	background-color: #efefff;
+	background-color: var(--clr-bg);
 }
 a {
 	text-decoration: none;
@@ -148,7 +151,8 @@ h3 {
 }
 /* //pagination css */
 .pagination {
-	margin: 25px 50%;
+	margin: 1rem 50% 5rem 50%;
+	padding-bottom: 5rem;
 	transform: translateX(-50%);
 	width: 50%;
 	/* border: 1px solid gold; */
