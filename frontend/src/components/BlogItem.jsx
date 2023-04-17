@@ -11,25 +11,22 @@ function BlogItem({ blog }) {
 	}
 	return (
 		<div className="blog-content">
+			<div className="creator">
+				<small>{blog.creator || "DKM"}</small>
+				<small className="date">
+					<ReactTimeAgo
+						date={blog.updatedAt}
+						locale="en-US"
+						timeStyle="twitter"
+					/>
+				</small>
+			</div>
 			<div className="blog-image">
 				<img src={imgSrc} alt="blog image(not loaded)" />
 			</div>
 			<div className="blog-text">
 				<h2>{blog.title}</h2>
 				<p>{blog.description}</p>
-				<div className="creator">
-					<small>
-						<ReactTimeAgo
-							date={blog.updatedAt}
-							locale="en-US"
-							timeStyle="twitter"
-						/>
-						ago
-					</small>
-					<small>
-						by <b>{blog.creator || "DKM"}</b>
-					</small>
-				</div>
 			</div>
 		</div>
 	);

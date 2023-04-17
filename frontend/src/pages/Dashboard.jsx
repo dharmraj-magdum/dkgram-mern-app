@@ -47,9 +47,9 @@ function Dashboard() {
 	}
 	return (
 		<div className="container2">
-			<section className="heading">
+			{/* <section className="heading">
 				<h3>Dashboard</h3>
-			</section>
+			</section> */}
 
 			<section className="blogs-container">
 				{blogs.length > 0 ? (
