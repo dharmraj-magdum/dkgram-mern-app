@@ -12,7 +12,6 @@ import "./stylesheets/headerstyle.css";
 import TimeAgo from "javascript-time-ago";
 
 import en from "javascript-time-ago/locale/en.json";
-import hi from "javascript-time-ago/locale/hi";
 
 TimeAgo.addDefaultLocale(en);
 TimeAgo.addLocale(hi);
