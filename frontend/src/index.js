@@ -14,7 +14,6 @@ import TimeAgo from "javascript-time-ago";
 import en from "javascript-time-ago/locale/en.json";
 
 TimeAgo.addDefaultLocale(en);
-TimeAgo.addLocale(hi);
 const container = document.getElementById("root");
 const root = createRoot(container);
 
